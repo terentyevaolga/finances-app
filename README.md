@@ -9,6 +9,6 @@
 - `python manage.py migrate` - применить миграции
 - `pip install -r requirements.txt` - установка зависимостей
 
-cd finances
+
 python manage.py runserver
 python manage.py makemigrations
