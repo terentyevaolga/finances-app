@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Регистрация</title>
-</head>
-<body>
-    <h1>Регистрация</h1>
+{% extends 'web/base.html' %}
+{% block content %}
+     <h2>Регистрация</h2>
 <!--    не работает-->
     {% if is_success %}
         <p><b>Спасибо за регистрацию!</b></p>
@@ -18,5 +13,4 @@
         </button>
     </form>
     {% endif %}
-</body>
-</html>
+{% endblock %}
